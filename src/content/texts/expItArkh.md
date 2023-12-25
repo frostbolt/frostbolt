@@ -1,0 +1,2 @@
+- Developed a complex web application for festival attendants registration
+- Took part in developing Back-end using Ruby on Rails

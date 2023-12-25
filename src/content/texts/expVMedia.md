@@ -1,0 +1,3 @@
+- Developed SPA, UI components, maintained existing code base
+- Integrated with APIs in close communication with Back-end team
+- Refactored the build system, which reduced build time by up to 10 times

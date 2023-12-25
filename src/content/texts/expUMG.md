@@ -1,0 +1,2 @@
+- Built an advanced __VPAID__-compatible __AdUnit__, meant to integrate and wrap two separate ad-platforms, created testing environment for video-ad campaigns for internal usage.
+- Developed SPA, UI components, maintained exiting code base.

@@ -1,0 +1,3 @@
+- Developed __mobile-first__ responsive websites
+- Implemented UI logic using either __jQuery__ or pure JavaScript
+- Created __WordPress__ templates from scratch
