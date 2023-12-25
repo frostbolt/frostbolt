@@ -78,7 +78,7 @@ export const pageConfig: PersonalPageCfg = {
     },
     {
       from: 'June 2014',
-      to: 'an. 2016',
+      to: 'Jan. 2016',
       occupation: 'Frontend Developer',
       company: 'F5 Digital Agency',
       description: marked.parse(expF5).toString()
