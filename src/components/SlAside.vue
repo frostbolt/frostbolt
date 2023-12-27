@@ -1,7 +1,7 @@
 <template>
   <div class="heading-block sticky">
-    <h1>Sergei Lushchik</h1>
-    <h2>Full-stack Engineer</h2>
+    <h1>{{ name }}</h1>
+    <h2>{{ occupation }}</h2>
     <p class="mt">
       <slot />
     </p>
@@ -32,6 +32,14 @@ import { defineComponent, type PropType } from 'vue'
 export default defineComponent({
   name: 'SlAside',
   props: {
+    name: {
+      type: String,
+      required: true,
+    },
+    occupation: {
+      type: String,
+      required: true,
+    },
     socials: {
       type: Array as PropType<Social[]>,
       default: () => []

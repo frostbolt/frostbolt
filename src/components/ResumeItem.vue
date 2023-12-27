@@ -15,18 +15,25 @@
       <div class="description">
         <slot name="description" />
       </div>
-      <div class="tags">
-        <slot name="tags" />
-      </div>
+      <skill-set :skills="skills" />
     </div>
   </section>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, type PropType } from 'vue'
+import SkillSet from './SkillSet.vue'
+import type { Skill } from '@/content/skill'
 
 export default defineComponent({
-  name: 'ResumeItem'
+  name: 'ResumeItem',
+  components: { SkillSet },
+  props: {
+    skills: {
+      type: Array as PropType<Array<Skill>>,
+      default: () => []
+    }
+  }
 })
 </script>
 

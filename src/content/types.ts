@@ -1,3 +1,5 @@
+import type { Skill } from "./skill"
+
 export type SocialIcon = ['far' | 'fab', string]
 
 export interface Social {
@@ -12,6 +14,7 @@ export interface Experience {
   occupation: string
   company: string
   description: string
+  skills?: Skill[]
 }
 
 export interface PersonalPageCfg {
