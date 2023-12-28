@@ -22,6 +22,7 @@ body {
     content: '';
     position: fixed;
     background-image: url('/src/assets/bg-top.webp');
+    animation: hue 5s infinite linear;
     background-repeat: no-repeat;
     background-position: center 0;
     top: 0;
@@ -66,5 +67,14 @@ body {
   }
   90% {
     transform: translate(11%, -2%);
+  }
+}
+
+@keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
   }
 }
