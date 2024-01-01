@@ -13,7 +13,7 @@
       target="_blank"
       rel="noopener noreferrer"
     >
-      <font-awesome-icon :icon="['far', 'file']" /> <span>Download Complete Resume</span>
+      <font-awesome-icon :icon="['far', 'file']" /> <span>Download Resume</span>
     </a>
 
     <div class="links">
